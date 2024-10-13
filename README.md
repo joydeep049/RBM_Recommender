@@ -6,6 +6,7 @@ The `Restricted` part of RBMs come from the fact that the Pairwise interactions 
 
 Hopfield networks memorise the data, and hence cannot be used for recommendation purposes. 
 
+Link to the collab notebook : [RBM_Recommender.ipynb](https://colab.research.google.com/drive/1IFz5Tce-YNW_NYZqYgmT2IH7KtjHSZSW?usp=drive_link)
 
 ## Scoring System Analysis
 
