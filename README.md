@@ -1,4 +1,4 @@
-### Recommendation Using Restricted Boltzmann Machine 
+# Recommendation Using Restricted Boltzmann Machine 
 
 Restricted Boltzmann Machines are stochastic neural networks which focuses on learning the underlying probability distribution. It uses a set of Visible and Hidden nodes. It is based on energy minimisation across a set of nodes. Add Stochasticity and Hidden nodes to a Hopfield Network, and you would get a Restricted Boltzmann Machine.
 
@@ -7,7 +7,7 @@ The `Restricted` part of RBMs come from the fact that the Pairwise interactions 
 Hopfield networks memorise the data, and hence cannot be used for recommendation purposes. 
 
 
-#### Scoring System Analysis
+## Scoring System Analysis
 
 Approach:
 
@@ -16,7 +16,7 @@ Approach:
 3. Quiz Performance: Higher average quiz scores could indicate that the student is more capable of handling harder study materials.
 4. Past Engagement: If the student has viewed certain materials, those materials will not be recommended again.
 
-#### Data Used
+## Data Used
 
 Student Table 
 
@@ -95,12 +95,12 @@ Engagement Table
 | 10         | 110         | 2      | Y      |
 
 
-#### Motivation
+## Motivation
 
-I could have simply built a recommender system using collaborative or content filtering. But this small work is my way of paying a tribute to Geoffrey Hinton and John Hopfield. 
+I could have simply built a recommender system using collaborative or content filtering. But this small work is my way of paying a tribute to `Geoffrey Hinton` and `John Hopfield`. 
 
 The RBM is the perfect way to do that. The limitations of the Hopfield Networks led to the development of probabilistic models like RBMs. Also, Geoffrey Hinton has a paper where he explains how to use RBMs for building a recommendation system.
 
-#### Whats Next?
+## Whats Next?
 
 I plan to write my own implementation of a RBM. So stay tuned for that!
