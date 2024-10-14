@@ -17,7 +17,7 @@ Approach:
 3. Quiz Performance: Higher average quiz scores could indicate that the student is more capable of handling harder study materials.
 4. Past Engagement: If the student has viewed certain materials, those materials will not be recommended again.
 
-## Data Used
+## Synthetic Data Used
 
 Student Table 
 
