@@ -2,7 +2,7 @@
 
 Restricted Boltzmann Machines are stochastic neural networks which focuses on learning the underlying probability distribution. It uses a set of Visible and Hidden nodes. It is based on energy minimisation across a set of nodes. Add Stochasticity and Hidden nodes to a Hopfield Network, and you would get a Restricted Boltzmann Machine.
 
-The `Restricted` part of RBMs come from the fact that the Pairwise interactions are only allowed withing a set of observable and unobservable states. The visible layer or the hidden layers do not have recurrent connections within them, nor are they self connected. This makes it possible for RBM to be trained by efficient optimisation algorithms like `contrastive divergence`.
+The `Restricted` part of RBMs come from the fact that the Pairwise interactions are only allowed within a set of observable and unobservable states. The visible layer or the hidden layers do not have recurrent connections within them, nor are they self connected. This property makes the algorithm able to always reach convergence, also making it possible for RBMs to be trained by efficient optimisation algorithms like `contrastive divergence`.
 
 Hopfield networks memorise the data, and hence cannot be used for recommendation purposes. 
 
